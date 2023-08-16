@@ -8,12 +8,14 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import InstagramIcon from '@mui/icons-material/Instagram';
+// import Navbar from "./Navbar";
 // import { NavLink } from "react-router-dom";
 const Page = () => {
   return (
     <div className="page">
       <div className="divwrapper">
-        <div className="header">
+        {/* <Navbar /> */}
+        {/* <div className="header">
           <div className="divheader-content">
             <div className="link-logosvg">
               <div className="logosvg">
@@ -74,7 +76,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="divelementor">
           <div className="section">
             <div className="form">

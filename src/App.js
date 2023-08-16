@@ -4,10 +4,10 @@ import './Contact.css'
 // import { BrowserRouter } from 'react-router-dom';
 import { Route, Routes } from 'react-router-dom';
 import Page from './Page';
-// import Navbar from './Navbar';
-// import Contact from './Contact';
-// import { Route } from '@mui/icons-material';
+import Navbar from './Navbar';
 import Contact from './Contact';
+
+// import Contact from './Contact';
 // import {BrowserRouter,Routes,Route} from 'react-router-dom'
 function App() {
   return (
@@ -15,13 +15,14 @@ function App() {
     // <Page />
 
 
-
-    /* <Navbar /> */
-    <Routes>
-      <Route path='/' element={<Page />} />
-      <Route path='/contact' element={<Contact />} />
-    </Routes>
-
+    <>
+      <Navbar />
+      {/* <Page /> */}
+      <Routes>
+        <Route path='/' element={<Page />} />
+        <Route path='/contact' element={<Contact />} />
+      </Routes>
+    </>
 
   );
 }

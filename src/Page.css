@@ -4258,12 +4258,12 @@
   color: var(--color-lightgray-100);
   font-family: var(--font-roboto);
 }
-.divwrapper {
+/* .divwrapper {
   top: 0;
   left: 0;
   width: 1920px;
   height: 7678.31px;
-}
+} */
 .div91,
 .divwrapper,
 .link17 {
