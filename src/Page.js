@@ -2,14 +2,13 @@ import React from "react";
 import "./Page.css";
 import "./global.css"
 import Img from "./Image/home-4-sec-1.jpg.jpg";
-import Img2 from "./Image/Ideal.png";
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
-import InstagramIcon from '@mui/icons-material/Instagram';
-// import Navbar from "./Navbar";
-// import { NavLink } from "react-router-dom";
+import Img2 from "./Image/cta-man.png.png"
+import Img4 from "./Image/hand-holding-house-real-estate-property-model.jpg"
+import Img3 from "./Image/Link.png"
+import Img5 from "./Image/Link2.png"
+import Img6 from "./Image/Link3.png"
+
+
 const Page = () => {
   return (
     <div className="page">
@@ -294,6 +293,7 @@ const Page = () => {
                   <b className="heading-21">Latest Properties</b>
                 </div>
               </div>
+
               {/* <div className="section7">
                 <div className="divfeaturedcontainer">
                   <div className="divswiper-wrapper">
@@ -859,7 +859,7 @@ const Page = () => {
                     </b>
                   </div>
                 </div>
-                <img className="link-icon" alt="" src="/link.svg" />
+                <img className="link-icon" alt="" src={Img6} />
                 <div className="link-play">Play Video</div>
               </div>
               <div className="divsection-title-wrapper2">
@@ -882,7 +882,7 @@ const Page = () => {
                   <img
                     className="divthumbnail-bg-icon5"
                     alt=""
-                    src="/divthumbnailbg5@2x.png"
+                    src={Img3}
                   />
                   <div className="pseudo15" />
                 </div>
@@ -924,7 +924,7 @@ const Page = () => {
                         <img
                           className="mike-hussy-1-150x150jpg-icon"
                           alt=""
-                          src="/robert-blue150x150jpg1@2x.png"
+                          src={Img4}
                         />
                         <div className="divitem-title4">
                           <div className="mike-hussy">{`By `}</div>
@@ -952,7 +952,7 @@ const Page = () => {
                   <img
                     className="divthumbnail-bg-icon5"
                     alt=""
-                    src="/divthumbnailbg6@2x.png"
+                    src={Img3}
                   />
                   <div className="pseudo15" />
                 </div>
@@ -994,7 +994,7 @@ const Page = () => {
                         <img
                           className="mike-hussy-1-150x150jpg-icon"
                           alt=""
-                          src="/daziy-millar150x150jpg2@2x.png"
+                          src={Img5}
                         />
                         <div className="divitem-title4">
                           <div className="mike-hussy">{`By `}</div>
@@ -1016,7 +1016,7 @@ const Page = () => {
                   <img
                     className="divthumbnail-bg-icon5"
                     alt=""
-                    src="/divthumbnailbg7@2x.png"
+                    src={Img6}
                   />
                   <div className="pseudo15" />
                 </div>
@@ -1058,7 +1058,7 @@ const Page = () => {
                         <img
                           className="mike-hussy-1-150x150jpg-icon"
                           alt=""
-                          src="/daziy-millar150x150jpg3@2x.png"
+                          src={Img3}
                         />
                         <div className="divitem-title4">
                           <div className="mike-hussy">{`By `}</div>
@@ -1080,7 +1080,7 @@ const Page = () => {
                   <img
                     className="divthumbnail-bg-icon5"
                     alt=""
-                    src="/divthumbnailbg8@2x.png"
+                    src={Img5}
                   />
                   <div className="pseudo15" />
                 </div>
@@ -1121,7 +1121,7 @@ const Page = () => {
                       <img
                         className="mike-hussy-1-150x150jpg-icon"
                         alt=""
-                        src="/tom-steven150x150jpg1@2x.png"
+                        src={Img6}
                       />
                       <div className="divitem-title7">
                         <div className="mike-hussy">{`By `}</div>
@@ -1138,7 +1138,7 @@ const Page = () => {
                   <img
                     className="divthumbnail-bg-icon5"
                     alt=""
-                    src="/divthumbnailbg9@2x.png"
+                    src={Img3}
                   />
                   <div className="pseudo15" />
                 </div>
@@ -1180,7 +1180,7 @@ const Page = () => {
                         <img
                           className="mike-hussy-1-150x150jpg-icon"
                           alt=""
-                          src="/tom-steven150x150jpg2@2x.png"
+                          src={Img6}
                         />
                         <div className="divitem-title7">
                           <div className="mike-hussy">{`By `}</div>
@@ -1202,7 +1202,7 @@ const Page = () => {
                   <img
                     className="divthumbnail-bg-icon5"
                     alt=""
-                    src="/divthumbnailbg10@2x.png"
+                    src={Img5}
                   />
                   <div className="pseudo15" />
                 </div>
@@ -1244,7 +1244,7 @@ const Page = () => {
                         <img
                           className="mike-hussy-1-150x150jpg-icon"
                           alt=""
-                          src="/mike-hussy1150x150jpg@2x.png"
+                          src={Img3}
                         />
                         <div className="divitem-title9">
                           <div className="mike-hussy">{`By `}</div>
@@ -1352,7 +1352,7 @@ const Page = () => {
             <div className="divrow1">
               <div className="divblog-box">
                 <div className="divpost-img">
-                  <img className="link-icon1" alt="" src="/link1@2x.png" />
+                  <img className="link-icon1" alt="" src={Img3} />
                 </div>
                 <div className="divpopup-date">
                   <div className="pseudo22" />
@@ -1386,7 +1386,7 @@ const Page = () => {
               </div>
               <div className="divblog-box1">
                 <div className="divpost-img">
-                  <img className="link-icon1" alt="" src="/link2@2x.png" />
+                  <img className="link-icon1" alt="" src={Img5} />
                 </div>
                 <div className="divpopup-date">
                   <div className="pseudo25" />
@@ -1418,7 +1418,7 @@ const Page = () => {
               </div>
               <div className="divblog-box2">
                 <div className="divpost-img">
-                  <img className="link-icon1" alt="" src="/link3@2x.png" />
+                  <img className="link-icon1" alt="" src={Img6} />
                 </div>
                 <div className="divpopup-date2">
                   <div className="pseudo25" />
@@ -1455,26 +1455,14 @@ const Page = () => {
             <div className="divelementor-container3">
               <div className="divelementor-widget-wrap7">
                 <div className="divelementor-element">
-                  <img
-                    className="cta-parallax-3png-icon"
-                    alt=""
-                    src="/ctaparallax3png@2x.png"
-                  />
-                  <img
-                    className="cta-parallax-2png-icon"
-                    alt=""
-                    src="/ctaparallax2png@2x.png"
-                  />
-                  <img
-                    className="cta-parallax-1png-icon"
-                    alt=""
-                    src="/ctaparallax1png@2x.png"
-                  />
+
+
+
                 </div>
                 <img
                   className="cta-manpng-icon"
                   alt=""
-                  src="/ctamanpng@2x.png"
+                  src={Img2}
                 />
               </div>
               <div className="divelementor-widget-wrap8">
@@ -1488,12 +1476,12 @@ const Page = () => {
                 <img
                   className="divelementor-element-icon"
                   alt=""
-                  src="/divelementorelement.svg"
+                  src={Img4}
                 />
                 <img
                   className="divelementor-element-icon1"
                   alt=""
-                  src="/divelementorelement1.svg"
+                  src={Img4}
                 />
               </div>
               <div className="button5">
@@ -1502,7 +1490,7 @@ const Page = () => {
             </div>
           </div>
         </div>
-        <div className="footer">
+        {/* <div className="footer">
           <div className="divfooter-bottom">
             <div className="divrow2">
               <div className="list24">
@@ -1585,11 +1573,7 @@ const Page = () => {
                   <div className="form1">
                     <div className="input1">
                       <input type="text" placeholder=" Enter e-mail addess"></input>
-                      {/* <div className="divplaceholder1">
-                        <div className="enter-e-mail-addess">
-                          Enter e-mail addess
-                        </div>
-                      </div> */}
+
                     </div>
                     <div className="divrt-animation-btn">
                       <div className="input2">
@@ -1629,7 +1613,7 @@ const Page = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="link17">
         <div className="div91"></div>
