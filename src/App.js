@@ -6,6 +6,7 @@ import { Route, Routes } from 'react-router-dom';
 import Page from './Page';
 import Navbar from './Navbar';
 import Contact from './Contact';
+import Footer from './Footer';
 
 // import Contact from './Contact';
 // import {BrowserRouter,Routes,Route} from 'react-router-dom'
@@ -22,6 +23,7 @@ function App() {
         <Route path='/' element={<Page />} />
         <Route path='/contact' element={<Contact />} />
       </Routes>
+      <Footer />
     </>
 
   );

@@ -345,7 +345,7 @@
   display: flex;
 }
 .divsearch-item {
-  top: -43px;
+  top: 0px;
   border-right: 1px solid var(--color-lightcyan);
   flex-direction: row;
   padding: 0 var(--padding-12xs) var(--padding-11xs) 0;
@@ -4252,7 +4252,7 @@
   font-family: var(--font-ubuntu);
 }
 .footer {
-  top: 7196.31px;
+      top: 7281.31px;
   background-color: var(--color-white);
   height: 482px;
   color: var(--color-lightgray-100);

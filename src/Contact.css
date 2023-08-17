@@ -1,3 +1,4 @@
+/*
 .logosvg-icon {
   position: relative;
   width: 148px;
@@ -1427,7 +1428,7 @@
 .divmain-footer {
   width: 1920px;
   padding: 80px var(--padding-321xl) 20px;
-  /* background-image: url(/public/divmainfooter@3x.png); */
+
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -1557,3 +1558,4 @@
   color: var(--color-mediumaquamarine);
   font-family: var(--font-ubuntu);
 }
+*/
