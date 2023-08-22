@@ -15,6 +15,7 @@
   width: 1920px;
   font-size: var(--font-size-base);
 } */
+
 .header,
 .header * {
   box-sizing: border-box;

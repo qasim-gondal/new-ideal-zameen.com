@@ -1,148 +1,78 @@
 import React from "react"
 import "./global.css"
 import "./Contact.css"
-
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import CallIcon from '@mui/icons-material/Call';
+import ShareIcon from '@mui/icons-material/Share';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import EmailIcon from '@mui/icons-material/Email';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 const Contact = () => {
   return (
-    <div>
+    <>
+      <div className="grid grid-cols-2 gap-50 left-10 place-items-center">
+        <div>
+          <div>
+            <div className="text-xl text-bold leading">Get in Touch</div>
+            <p className="text-slate-500" >Ideal Zameen are hardworking analysts who watch<br></br> market trends,
+              know the neighborhoods, and are <br></br>skilled at identifying the best opportunities for their clients.</p>
+          </div >
+          <div className="flex items-center p-6 max-w-sm  bg-white rounded-xl hover:shadow-lg space-x-4 mt-6">
+            <LocationOnIcon />
+            <div>
+              <p className="text-slate-500">Location</p>
+              <div className="text-xl">##########</div>
+            </div>
+          </div>
+          <div className="flex items-center p-6 max-w-sm bg-white rounded-xl hover:shadow-lg space-x-4 mt-6">
+            <CallIcon />
+            <div>
+              <p className="text-slate-500">Emergency Call</p>
+              <div className="text-xl">+929898795873</div>
+            </div>
+          </div>
+          <div className="flex items-center p-6 max-w-sm bg-white rounded-xl hover:shadow-lg space-x-4 mt-6">
+            <ShareIcon />
+            <div>
+              <p className="text-slate-500">Follow Us on</p>
+              <div><FacebookIcon /><LinkedInIcon /><WhatsAppIcon /><InstagramIcon /><EmailIcon /></div>
+            </div>
+          </div>
+        </div>
+        <div className="border">
+          <div>
+            <div className="text-xl text-bold leading pt-5 pl-10">Quick Contact</div>
+            <p className="text-slate-500 pt-2 pl-10" >Ideal Zameen are hardworking analysts who watch<br></br> market trends,
+              know the neighborhoods, and are <br></br>skilled at identifying the best opportunities for their clients.</p>
+          </div >
+          <div className="grid grid-cols-4 gap-2 pt-2 pl-10">
 
-    </div>
+            <div>
+              <label>Name*<br></br>
+                <input type="text" name="name" className="border-2 h-10" />
+              </label>
+            </div><br></br>
+            <div>
+              <label>Phone*<br></br>
+                <input type="text" name="name" className="border-2 h-10" />
+              </label>
+            </div><br></br>
+            <div>
+              <label>Comment*<br></br>
+                <input type="text" name="name" className="border-2 h-20" />
+              </label>
+            </div>
 
-    // <div className="divelementor">
-    //   <div className="section1">
-    //     <div className="divelementor-column">
-    //       <div className="divelementor-widget-wrap">
-    //         <div className="section2">
-    //           <div className="divtitle-inner-wrapper">
-    //             <div className="heading-2">Get in Touch</div>
-    //             <div className="p">
-    //               <div className="borem-ipsum-dolor-container">
-    //                 <p className="borem-ipsum-dolor">
-    //                   Borem ipsum dolor sit amet conse ctetur adipisicing
-    //                   elit sed do eiusmod
-    //                 </p>
-    //                 <p className="borem-ipsum-dolor">
-    //                   Eorem ipsum dolor sit amet conse ctetur.
-    //                 </p>
-    //               </div>
-    //             </div>
-    //           </div>
-    //         </div>
-    //         <div className="section3">
-    //           <div className="divservice3-box-right">
-    //             <div className="divservice-box">
-    //               <div className="divservice3-icon-holder">
-    //                 <div className="ifas">
-    //                   <div className="div7"></div>
-    //                 </div>
-    //               </div>
-    //               <div className="divservice3-content-holder">
-    //                 <div className="heading-3">Location</div>
-    //                 <div className="martens-place-alexandra">
-    //                   131 Martens Place, Alexandra Hills, Australia.
-    //                 </div>
-    //               </div>
-    //             </div>
-    //           </div>
-    //         </div>
-    //         <div className="section4">
-    //           <div className="divservice3-box-right">
-    //             <div className="divservice-box">
-    //               <div className="divservice3-icon-holder">
-    //                 <div className="ifas">
-    //                   <div className="div8"></div>
-    //                 </div>
-    //               </div>
-    //               <div className="divservice3-content-holder1">
-    //                 <div className="heading-3">Emergency Call</div>
-    //                 <div className="martens-place-alexandra">
-    //                   +86 21 6137 9292
-    //                 </div>
-    //               </div>
-    //             </div>
-    //           </div>
-    //         </div>
-    //         <div className="section5">
-    //           <div className="divelementor-widget-wrap1">
-    //             <div className="divelementor-element">
-    //               <div className="divservice3-box-right2">
-    //                 <div className="divservice-box2">
-    //                   <div className="divservice3-icon-holder2">
-    //                     <div className="ifas">
-    //                       <div className="div10"></div>
-    //                     </div>
-    //                   </div>
-    //                   <div className="divservice3-content-holder2">
-    //                     <div className="heading-3">Follow Us On</div>
-    //                   </div>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //             <div className="divelementor-element1">
-    //               <div className="link9"></div>
-    //               <div className="link10"></div>
-    //               <div className="link11"></div>
-    //               <div className="link12"></div>
-    //               <div className="link13"></div>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //     <div className="divelementor-column1">
-    //       <div className="divelementor-widget-wrap2">
-    //         <div className="divelementor-element2">
-    //           <div className="divtitle-inner-wrapper1">
-    //             <div className="heading-2">Quick Contact</div>
-    //             <div className="p1">
-    //               <div className="borem-ipsum-dolor-container">
-    //                 <p className="borem-ipsum-dolor">
-    //                   Borem ipsum dolor sit amet conse ctetur adipisicing
-    //                   elit sed do
-    //                 </p>
-    //                 <p className="borem-ipsum-dolor">
-    //                   eiusmod Eorem ipsum dolor sit amet conse ctetur.
-    //                 </p>
-    //               </div>
-    //             </div>
-    //           </div>
-    //         </div>
-    //         <div className="divelementor-element3">
-    //           <div className="form-fieldset">
-    //             <div className="legend-contact">Contact Form</div>
-    //             <div className="divff-t-container">
-    //               <div className="divff-t-cell">
-    //                 <div className="divff-el-group">
-    //                   <div className="input" />
-    //                   <div className="label-name">
-    //                     <div className="name">Name *</div>
-    //                   </div>
-    //                 </div>
-    //               </div>
-    //               <div className="divff-t-cell1">
-    //                 <div className="divff-el-group">
-    //                   <div className="input" />
-    //                   <div className="label-phone">
-    //                     <div className="name">Phone *</div>
-    //                   </div>
-    //                 </div>
-    //               </div>
-    //             </div>
-    //             <div className="divff-el-group2">
-    //               <div className="textarea" />
-    //               <div className="label-comments">
-    //                 <div className="name">Comments *</div>
-    //               </div>
-    //             </div>
-    //             <div className="button">
-    //               <b className="send-message">Send Message</b>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
+          </div>
+          <div className="flex justify-center">
+            <div className="p-9 ">  <input type="submit" className="rounded-full bg-emerald-400  h-10 w-60 text-white "></input>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   )
 }
 export default Contact
