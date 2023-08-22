@@ -57,6 +57,8 @@
   left: 15px;
   line-height: 16px;
   font-weight: 500;
+  text-decoration: none;
+  background: white;
 }
 .pseudo {
   top: 36.43px;
