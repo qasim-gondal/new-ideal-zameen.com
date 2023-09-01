@@ -22,13 +22,8 @@ export default function Navbar() {
                 </div>
                 <div class="nav-list">
                     <div class="item-link">
-                        <select value={selectedOption} className='home '>
-                            <option value="">Home</option>
-                            <option value="red">My Account</option>
-                            <option value="blue">Blue</option>
-                            <option value="green">green</option>
+                        <div className="home" ><Link to="/">Home</Link></div>
 
-                        </select>
                     </div>
                     <div class="item-link-about">About</div>
                     <div class="item-link2">
@@ -44,6 +39,9 @@ export default function Navbar() {
                         <div class="pseudo4"></div>
                     </div>
                     <div ><Link to="/contact" class="item-link-contact">Contact</Link></div>
+                    <div ><Link to="/account" class="item-link-accout">Account</Link></div>
+
+
                 </div>
                 <div class="list">
                     <div class="item-link5">

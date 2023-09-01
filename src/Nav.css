@@ -248,6 +248,21 @@
 .item-link-contact:hover{
   color: #008c6b;
 }
+.item-link-accout {
+  color: #07c196;
+  text-align: left;
+  font: 500 16px/16px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 596.36px;
+  top: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.item-link-accout:hover{
+  color: #008c6b;
+}
 .list {
   padding: 19.5px 10px 19.5px 10px;
   display: flex;
